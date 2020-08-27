@@ -1,0 +1,49 @@
+.interior {
+  position: relative;
+}
+
+.div1 {
+  background-color: blue;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.div2 {
+  background-color: blue;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  top: 0px;
+  left: 120px;
+}
+
+.div3 {
+  background-color: blue;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  top: 120px;
+  left: 0px;
+}
+
+.div4 {
+  background-color: blue;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  top: 120px;
+  left: 120px;
+}
+
+.div5 {
+  background-color: red;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  top: 60px;
+  left: 60px;
+  transform: rotate(45deg);
+}
