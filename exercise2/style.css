@@ -1,5 +1,18 @@
-.interior {
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  height: 220px;
+  width: 220px;
   position: relative;
+  margin: 0 auto;
+}
+
+.interior {
+  height: 100px;
+  width: 100px;
+  position: absolute;
 }
 
 .div1 {

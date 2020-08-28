@@ -1,44 +1,50 @@
-.div1 {
-  background-color: blue;
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  position: relative;
+  width: 220px;
+  height: 220px;
+  margin: 0 auto;
+}
+.interior {
   height: 100px;
   width: 100px;
   position: absolute;
+}
+
+.div1 {
+  background-color: blue;
+
   top: 0px;
   left: 0px;
 }
 
 .div2 {
   background-color: blue;
-  height: 100px;
-  width: 100px;
-  position: absolute;
+
   top: 0px;
   left: 120px;
 }
 
 .div3 {
   background-color: blue;
-  height: 100px;
-  width: 100px;
-  position: absolute;
+
   top: 120px;
   left: 0px;
 }
 
 .div4 {
   background-color: blue;
-  height: 100px;
-  width: 100px;
-  position: absolute;
+
   top: 120px;
   left: 120px;
 }
 
 .div5 {
   background-color: red;
-  height: 100px;
-  width: 100px;
-  position: absolute;
+
   top: 60px;
   left: 60px;
 }

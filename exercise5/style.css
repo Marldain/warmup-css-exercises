@@ -1,5 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+
 .container {
   position: relative;
+  height: 440px;
+  width: 440px;
 }
 
 .interior {
